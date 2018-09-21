@@ -1,0 +1,4 @@
+[submodule "lib/matomo-php-tracker"]
+	path = lib/matomo-php-tracker
+	url = https://github.com/matomo-org/matomo-php-tracker
+	branch = master
