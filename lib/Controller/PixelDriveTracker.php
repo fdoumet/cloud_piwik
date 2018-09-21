@@ -8,6 +8,7 @@
 
 namespace OCA\Piwik\Controller;
 
+require_once __DIR__ . "/../matomo-php-tracker/PiwikTracker.php";
 
 use PiwikTracker;
 
