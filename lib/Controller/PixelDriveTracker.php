@@ -14,6 +14,7 @@ use PiwikTracker;
 
 class PixelDriveTracker extends PiwikTracker{
 	public function __construct(){
+		//TODO: Get this from the app directly
 		$analyticsUrl = getenv('MLVX_ANALYTICS_URL');
 		parent::__construct(1, $analyticsUrl);
 	}
